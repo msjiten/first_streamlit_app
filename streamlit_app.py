@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-requirements.txt
+
 streamlit.title ('My parents new healthy dinner')
 
 streamlit.header('Breakfast Menu')
@@ -29,3 +29,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 
+requirements.txt
